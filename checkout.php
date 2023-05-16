@@ -56,6 +56,7 @@ if (empty($_SESSION["user_id"])) {
         <link href="css/animsition.min.css" rel="stylesheet">
         <link href="css/animate.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+       
         <style>
             button {
                 border-radius: 3px;
@@ -129,8 +130,7 @@ if (empty($_SESSION["user_id"])) {
 
                 </div>
 
-
-
+                 
 
                 <div class="container m-t-30">
                     <form action="" method="post">
@@ -154,12 +154,29 @@ if (empty($_SESSION["user_id"])) {
 
                                                             <tr>
                                                                 <td>Cart Subtotal</td>
-                                                                <td> <?php echo "Rs." . $item_total; ?></td>
+                                                                <td> <?php echo "Rs." . $item_total    ?></td>
+                                                               
                                                                 <!-- <td>0.00015 BTC</td> -->
                                                             </tr>
                                                             <tr>
                                                                 <td>Converted Value </td>
-                                                                <td>0.00015 BTC</td>
+                                                                <td>  <?php
+                                                                        $txt = $item_total /157437.82;
+                                                                        $eth = number_format( $txt, 5, '. ', '' );
+                                            
+                                                                        echo  $eth ;
+
+
+                                                                        
+                                                                        ?> ETH 
+                                                                        <script type="text/javascript">
+                                                                        const ethprice="<?php echo $eth; ?>";
+                                                                        console.log(ethprice);
+                                                      
+                                                                        //js value
+                                                                       </script>
+                                                                        <script type="text/javascript" src="./client/src/components/Welcome.jsx"></script>
+                                                                </td>
                                                             </tr>
                                                             <tr>
                                                                 <td class="text-color"><strong>Total</strong></td>
@@ -183,12 +200,14 @@ if (empty($_SESSION["user_id"])) {
 
                                                     <li>
                                                         <label class="custom-control">
-                                                            <button onclick="me()" style="margin-left : 40px;" > <img src="images/mp.jpeg" type="button" id="metamask" alt="" width="30" height="30"><a href="http://localhost:3000/" target="_blank"> Metamask </a> </button>
+                                                            <button  style="margin-left : 40px;" > <img src="images/mp.jpeg" type="button" id="metamask" alt="" width="30" height="30"><a href="http://localhost:3000/" > Metamask </a> </button>
                                                             <script>
                                                                 function me() {
                                                                     console.log("yes it's working");
                                                                     document.getElementById("order").disabled = false;
+                                                                   
                                                                 }
+                                                                setTimeout(me , 3000);
                                                             </script>
                                                     </li>
                                                    
