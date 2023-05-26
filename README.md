@@ -1,7 +1,7 @@
 # CRYPTOPAY
 -----------
 Department of Computer Science 
-Final Year Major Project
+Final Year Major Project<br/>
 Title :- CRYPTOPAY : BLOCKCHAIN-POWERED FOOD ORDERING AND PAYMENT PLATEFORM
 -----------------------------------------------------------------------------
 
