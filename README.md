@@ -3,6 +3,7 @@
 Department of Computer Science 
 Final Year Major Project
 Title :- CRYPTOPAY : BLOCKCHAIN-POWERED FOOD ORDERING AND PAYMENT PLATEFORM
+-----------------------------------------------------------------------------
 
 HOW TO RUN THE PROJECT:
 ------------------------
@@ -37,9 +38,10 @@ Follow the steps below to start the payment process:
 
 Note: Ensure that you have XAMPP's Apache and MySQL servers running before starting the payment process.
 
-For any further assistance or inquiries, please contact the project maintainers.
+THANK YOU
 
 Project maintained by:
+-----------------------
 1: AYUSH VERMA
 2: SACHIN KUMAR SHARMA
 3: DEEPAK KUMAR SONI
