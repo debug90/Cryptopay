@@ -1,7 +1,7 @@
 # CRYPTOPAY
 -----------
 Department of Computer Science 
-Final Year Major Project<br/>
+Final Year Major Project<br/><br/>
 Title :- CRYPTOPAY : BLOCKCHAIN-POWERED FOOD ORDERING AND PAYMENT PLATEFORM
 -----------------------------------------------------------------------------
 
@@ -40,9 +40,9 @@ Note: Ensure that you have XAMPP's Apache and MySQL servers running before start
 
 THANK YOU
 
-Project maintained by:
+Project maintained by:<br/>
 -----------------------
-1: AYUSH VERMA
-2: SACHIN KUMAR SHARMA
-3: DEEPAK KUMAR SONI
-4: PRASHANT CHAUDHARY
+1: AYUSH VERMA<br/>
+2: SACHIN KUMAR SHARMA<br/>
+3: DEEPAK KUMAR SONI<br/>
+4: PRASHANT CHAUDHARY<br/>
